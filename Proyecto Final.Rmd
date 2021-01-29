@@ -22,6 +22,7 @@ Fecha de inicio de cotización: 15 de julio de 2016
 
 
 
-# Fuentes citadas
+# Fuentes citadas 
+Formato de citado: vancouver (por razones de practicidad)
 1. https://www.telesites.com.mx/que-hacemos.html
 
