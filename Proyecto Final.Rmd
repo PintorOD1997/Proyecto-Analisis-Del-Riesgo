@@ -15,8 +15,14 @@ output:
 Nombre del activo: Telesites SAB de CV
 Ticker del activo: SITESB-1
 Fecha de inicio de cotización: 15 de julio de 2016
+Sector: Tecnología de la información.
 
   Telesites SAB de CV es una empresa que acorde al manifesto de su sitio: "se dedica principalmente a construir, instalar, mantener, operar y comercializar, de manera directa, diversos tipos de torres y otras estructuras de soporte, así como espacios físicos y demás elementos no electrónicos para la instalación de equipos radiantes de radiocomunicaciones que conforman nuestra Infraestructura de Sitios, así como la prestación de otros servicios conexos relacionados directa o indirectamente al sector telecomunicaciones."(1)
+
+  La empresa fue constituida en 2015 como consecuencia de la Escisión de América Móvil, como una sociedad anónima bursátil de capital variable.
+Sus operaciones se extienden por las 9 regiones en las que se divide la República mexicana en el sector de las telecomunicaciones, proveyendo infraestructura pasiva móvil a través de 16,606 torres y otras 298 en Costa Rica.
+  Sus oficinas centrales se encuentran en Lomas de Chapultepec, Ciudad de México. 
+Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con clave de cotización en La Bolsa Mexicana de Valores : “OSM”
 
 
 
