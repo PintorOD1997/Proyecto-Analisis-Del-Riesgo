@@ -9,30 +9,37 @@ output:
     toc_float: yes
 ---
 
-
 # Introducción
-## Descripción del activo que se va a trabajar e identificación de los tipos de riesgos
-Nombre del activo: Telesites SAB de CV
-Ticker del activo: SITESB-1
-Fecha de inicio de cotización: 15 de julio de 2016
-Sector: Tecnología de la información.
+## Descripción del activo que se va a trabajar e identificación de los tipos de riesgos.
+  
+Nombre del activo: Telesites S.A.B. de C.V.  
+Ticker del activo: SITESB-1  
+Fecha de inicio de cotización: 15 de julio de 2016  
+Nombre en la bolsa: TSSLF  
+Sector: Tecnología de la información.  
 
   Telesites SAB de CV es una empresa que acorde al manifesto de su sitio: "se dedica principalmente a construir, instalar, mantener, operar y comercializar, de manera directa, diversos tipos de torres y otras estructuras de soporte, así como espacios físicos y demás elementos no electrónicos para la instalación de equipos radiantes de radiocomunicaciones que conforman nuestra Infraestructura de Sitios, así como la prestación de otros servicios conexos relacionados directa o indirectamente al sector telecomunicaciones."(1)
 
   La empresa fue constituida en 2015 como consecuencia de la Escisión de América Móvil, como una sociedad anónima bursátil de capital variable.
-Sus operaciones se extienden por las 9 regiones en las que se divide la República mexicana en el sector de las telecomunicaciones, proveyendo infraestructura pasiva móvil a través de 16,606 torres y otras 298 en Costa Rica.
+Sus operaciones se extienden por las 9 regiones en las que se divide la República Mexicana en el sector de las telecomunicaciones, proveyendo infraestructura pasiva móvil a través de 16,606 torres y otras 298 en Costa Rica.
   Sus oficinas centrales se encuentran en Lomas de Chapultepec, Ciudad de México. 
-Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con clave de cotización en La Bolsa Mexicana de Valores : “OSM”
+Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con clave de cotización en La Bolsa Mexicana de Valores :“OSM”
 
   La empresa se relaciona con Telcel, ya que sus accionistas en 2014 realizaron una escisión y transfirieron infraestructura a OPSIMEX, empresa que hoy en día es Telesites.
 
-  La empresa es de grandes dimensiones debido a la naturaleza de la industria en la que trabajan, y debido a que su principal fuente de ingresos es la renta de torres de telecomunicaciones, podría considerarse una empresa estable y con mucho futuro, sobre todo debido al crecimiento del mercado de telefonía móvil en México, ya que al establecerse nuevas empresas en este ámbito, tienen que utilizar infraestructura ya establecida o construir nueva.
+  La empresa es de grandes dimensiones debido a la naturaleza de la industria en la que trabajan, y debido a que su principal fuente de ingresos es la renta de torres de telecomunicaciones, podría considerarse una empresa estable y con mucho futuro, sobre todo debido al crecimiento del mercado de telefonía móvil en México, ya que al establecerse nuevas empresas en este ámbito, tienen que utilizar infraestructura ya establecida o construir nueva. 
+  Recientemente la empresa entró al S&P/BMV IPC el pasado 21 de septiembre de 2020 teniendo un incremento en sus acciones del 7% antes de su entrada.
   
-  Algunos riesgos de mercado a los que se podría enfrentar la empresa sería que entrase una nueva empresa de construcción de torres de telecomunicaciones y que resultara competitiva, o que la empresa no se adapte al mercado creciente del 5G y pierda el liderazgo debido a la entrada de empresas que realicen la instalación de esta tecnología en México. Otro riesgo al que se enfrenta sería que alguna de las empresas de telefonía móvil a la que le presta servicios se encuentre en problemas o quiebre, y pierda Telesites los ingresos asociados a esta empresa, sin embargo debido al tamaño del mercado que captan actualmente las empresas de telefonía móvil principalmente establecidas, las barreras de entrada son muy altas, y las que existen actualmente parece que están para quedarse.
+## Riesgos a los que se enfrenta la empresa:
+  Algunos riesgos de mercado a los que se podría enfrentar la empresa sería que entrase una nueva empresa de construcción de torres de telecomunicaciones y que resultara competitiva, o que la empresa no se adapte al mercado creciente del 5G y pierda el liderazgo debido a la entrada de empresas que realicen la instalación de esta tecnología en México. 
+  Otro riesgo al que se enfrenta sería que alguna de las empresas de telefonía móvil a la que le presta servicios se encuentre en problemas o quiebre, y pierda Telesites los ingresos asociados a esta empresa, sin embargo debido al tamaño del mercado que captan actualmente las empresas de telefonía móvil principalmente establecidas, las barreras de entrada son muy altas, y las que existen actualmente parece que están para quedarse. Además, la empresa pertenece a Carlos Slim por lo que es complicado que este permita la entrada de nuevos competidores a México.
+  Por otro lado, aunque la pandemia actual por covid-19 no es considerado por sí misma como un riesgo pincipal, esta ha acentuado los riesgos existentes y obliga a las empresas a afrontarlos de manera distinta. Siendo el mayor de ellos según el informe *Risk in Focus 2021*, la ciberseguridad y protección de datos, seguido de posibles riesgos estratégicos, la digitalización y las tecnologías emergentes, lo que implica un riesgo mayor para una empresa de telecomunicaciones como lo es Telesites. (4)
 
 
 
 # Fuentes citadas 
 Formato de citado: vancouver (por razones de practicidad)
 1. https://www.telesites.com.mx/que-hacemos.html
-
+2. https://finance.yahoo.com/quote/TSSLF/
+3. Judith Santiago 07 de septiembre de 2020, 18:58, Horas, H. V. T. P., Horas, H. C. B. P., Horas, H. M. P. D. M. P., Horas, H. M. Y. P., AntonioRivera, J., Reuters, Reuters, AntonioRivera, J., Reuters, AntonioRivera, J., & AntonioRivera, J. (2020, 8 septiembre). Acciones de Telesites suben ante posible entrada al IPC. El Economista. https://www.eleconomista.com.mx/mercados/Acciones-de-Telesites-suben-ante-posible-entrada-al-IPC-20200907-0086.html
+4. https://www.compromisoempresarial.com/rsc/2020/10/la-covid-19-cambia-la-percepcion-de-los-riesgos-para-las-empresas/
