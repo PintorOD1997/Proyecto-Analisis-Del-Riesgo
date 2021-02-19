@@ -43,7 +43,6 @@ Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con cl
   
 ## Análisis histórico del precio y del rendimientos. Causas de cambios
 
- Efectuar las graficas del precio y del rendimiento desde el 2016 hasta 2021 (fecha de corte según la fecha de la práctica) para el caso de estudio que el estudiante está trabajando. Usar estas gráficas e identificar las causas de cambios observados en el precio. Es decir, se deberá analizar primero de manera visual el comportamiento que ha tenido el activo e identificar periodos donde el precio ha cambiado de manera significativa, ya sea hacia arriba o hacia abajo. Paso seguido, se deberán buscar noticias e información financiera, económica y/o política nacional y/o internacional, además de información propia de la empresa, que pudieran haber tenido un efecto en el comportamiento del precio, analizado con anterioridad.
 ```{r eval=TRUE,message=FALSE, include=FALSE}
 library(quantmod)
 library(PerformanceAnalytics)
