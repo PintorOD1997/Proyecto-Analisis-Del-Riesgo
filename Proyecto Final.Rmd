@@ -30,11 +30,50 @@ Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con cl
   La empresa es de grandes dimensiones debido a la naturaleza de la industria en la que trabajan, y debido a que su principal fuente de ingresos es la renta de torres de telecomunicaciones, podría considerarse una empresa estable y con mucho futuro, sobre todo debido al crecimiento del mercado de telefonía móvil en México, ya que al establecerse nuevas empresas en este ámbito, tienen que utilizar infraestructura ya establecida o construir nueva. 
   Recientemente la empresa entró al S&P/BMV IPC el pasado 21 de septiembre de 2020 teniendo un incremento en sus acciones del 7% antes de su entrada.
   
-## Riesgos a los que se enfrenta la empresa:
-  Algunos riesgos de mercado a los que se podría enfrentar la empresa sería que entrase una nueva empresa de construcción de torres de telecomunicaciones y que resultara competitiva, o que la empresa no se adapte al mercado creciente del 5G y pierda el liderazgo debido a la entrada de empresas que realicen la instalación de esta tecnología en México. 
-  Otro riesgo al que se enfrenta sería que alguna de las empresas de telefonía móvil a la que le presta servicios se encuentre en problemas o quiebre, y pierda Telesites los ingresos asociados a esta empresa, sin embargo debido al tamaño del mercado que captan actualmente las empresas de telefonía móvil principalmente establecidas, las barreras de entrada son muy altas, y las que existen actualmente parece que están para quedarse. Además, la empresa pertenece a Carlos Slim por lo que es complicado que este permita la entrada de nuevos competidores a México.
-  Por otro lado, aunque la pandemia actual por covid-19 no es considerado por sí misma como un riesgo pincipal, esta ha acentuado los riesgos existentes y obliga a las empresas a afrontarlos de manera distinta. Siendo el mayor de ellos según el informe *Risk in Focus 2021*, la ciberseguridad y protección de datos, seguido de posibles riesgos estratégicos, la digitalización y las tecnologías emergentes, lo que implica un riesgo mayor para una empresa de telecomunicaciones como lo es Telesites. (4)
+  Ante una población que demanda constantemente mayor tráfico de datos, aunado a la rápida evolución de las tecnologías en telecomunicaciones y la necesidad de transferencia de información, los operadores de telefonía celular, así como compañías de televisión por cable y empresas de geolocalización, requieren mayor infraestructura para otorgar sus servicios, situación que encamina a un alto potencial de crecimiento hacia adelante para Telesites.  
+  
+### Riesgos a los que se enfrenta la empresa:
 
+  Algunos riesgos de mercado a los que se podría enfrentar la empresa sería que entrase una nueva empresa de construcción de torres de telecomunicaciones y que resultara competitiva, o que la empresa no se adapte al mercado creciente del 5G y pierda el liderazgo debido a la entrada de empresas que realicen la instalación de esta tecnología en México. 
+  
+  Otro riesgo al que se enfrenta sería que alguna de las empresas de telefonía móvil a la que le presta servicios se encuentre en problemas o quiebre, y pierda Telesites los ingresos asociados a esta empresa, sin embargo debido al tamaño del mercado que captan actualmente las empresas de telefonía móvil principalmente establecidas, las barreras de entrada son muy altas, y las que existen actualmente parece que están para quedarse. Además, la empresa pertenece a Carlos Slim por lo que es complicado que este permita la entrada de nuevos competidores a México.
+  
+  Por otro lado, aunque la pandemia actual por covid-19 no es considerado por sí misma como un riesgo pincipal, esta ha acentuado los riesgos existentes y obliga a las empresas a afrontarlos de manera distinta. Siendo el mayor de ellos según el informe *Risk in Focus 2021*, la ciberseguridad y protección de datos, seguido de posibles riesgos estratégicos, la digitalización y las tecnologías emergentes, lo que implica un riesgo mayor para una empresa de telecomunicaciones como lo es Telesites. (4)
+  
+  
+## Análisis histórico del precio y del rendimientos. Causas de cambios
+
+ Efectuar las graficas del precio y del rendimiento desde el 2016 hasta 2021 (fecha de corte según la fecha de la práctica) para el caso de estudio que el estudiante está trabajando. Usar estas gráficas e identificar las causas de cambios observados en el precio. Es decir, se deberá analizar primero de manera visual el comportamiento que ha tenido el activo e identificar periodos donde el precio ha cambiado de manera significativa, ya sea hacia arriba o hacia abajo. Paso seguido, se deberán buscar noticias e información financiera, económica y/o política nacional y/o internacional, además de información propia de la empresa, que pudieran haber tenido un efecto en el comportamiento del precio, analizado con anterioridad.
+```{r eval=TRUE,message=FALSE, include=FALSE}
+library(quantmod)
+library(PerformanceAnalytics)
+library(lubridate)
+```
+```{r, include=FALSE}
+clave <- "SITESB-1.MX"
+datos <- new.env()
+getSymbols(clave, from = "2015-01-02", to = today(), warnings = FALSE, env = datos)
+precio <- datos[[clave]][,6] #la información en la columna 6, o sea los precios al cierre
+names(precio) <- clave
+```
+
+Precio del activo
+```{r, include=FALSE}
+chartSeries(precio, name = paste("Precio", clave),up.col = "green", dn.col = "red")
+```
+
+Rendimientos del activo
+```{r, include=FALSE}
+rendimiento <- na.omit(diff(log(precio)))
+chartSeries(rendimiento, name = paste("Precio", clave), up.col = "green", dn.col = "red")
+```
+  Despues de analizar estás gráficas podemos entender como ha sido el comportamiento del activo desde el 2016 hasta la fecha. 
+Observando la gráfica de precios podemos notar que el precio de las acciones del activo al cierre ha ido en un muy notorio incremento desde finales del 2019 y se ha mantenido en un constante crecimiento hasta la fecha.  
+A nivel interno, esto se debe al crecimiento que tuvo la empresa durante este año, pues durante el 2020, Telesites incorporó 1,207 sitios a su portafolio y sumó 198 rentas adicionales por co-ubicaciones, cerrando el año con un total de 1,621. La expansión de nuevas torres se debió tanto a mejoras en cobertura geográfica, como al incremento en la capacidad en algunas torres, presentándose en zonas urbanas y rurales.(1)
+
+  Según el informe anual de la empresa, sus ingresos totales de 2019 fueron de 7,296.7 millones de pesos, de los cuales, el más del 60% provinieron de la renta de torres. Mientras que en 2018, ascendieron a 6,603.8 millones y en 2017 a 5,665.7 millones. Por lo que podemos notar un crecimiento constante, lo que es de esperarse ante una población que inova constantemente y demanda de mayor tráfico de datos. Y aunque no se cuenta todavía con el dato oficial de ingresos totales durante el 2020 de la empresa, se sabe que esté incrementó en un 12.4% respecto al mismo trimestre del 2019, por lo tanto se espera un gran crecimiento.
+
+  Esto puede deberse en parte a la pandemia actual por Covid-19 que se vive en todo el mundo. Gracias a esta, los servicios de telecomunicaciones han cobrado mayor importancia a nivel global ya que labores rutinarias que requerían interacción presencial han ido migrando paulatinamente a comunicaciones por medio de distintas plataformas de telecomunicaciones, además siendo este también el principal canal de difusión de información sobre la situación actual del mundo y la teleeducación.(5)
 
 
 # Fuentes citadas 
@@ -43,3 +82,4 @@ Formato de citado: vancouver (por razones de practicidad)
 2. https://finance.yahoo.com/quote/TSSLF/
 3. Judith Santiago 07 de septiembre de 2020, 18:58, Horas, H. V. T. P., Horas, H. C. B. P., Horas, H. M. P. D. M. P., Horas, H. M. Y. P., AntonioRivera, J., Reuters, Reuters, AntonioRivera, J., Reuters, AntonioRivera, J., & AntonioRivera, J. (2020, 8 septiembre). Acciones de Telesites suben ante posible entrada al IPC. El Economista. https://www.eleconomista.com.mx/mercados/Acciones-de-Telesites-suben-ante-posible-entrada-al-IPC-20200907-0086.html
 4. https://www.compromisoempresarial.com/rsc/2020/10/la-covid-19-cambia-la-percepcion-de-los-riesgos-para-las-empresas/
+5. https://www.eleconomista.com.mx/opinion/Servicios-moviles-en-tiempos-de-Covid-19-20201029-0033.html
