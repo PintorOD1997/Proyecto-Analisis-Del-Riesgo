@@ -40,6 +40,8 @@ Tiene como empresa filial a la Operadora de Sites Mexicanos, S.A. de C.V. con cl
   
   Por otro lado, aunque la pandemia actual por covid-19 no es considerado por sí misma como un riesgo pincipal, esta ha acentuado los riesgos existentes y obliga a las empresas a afrontarlos de manera distinta. Siendo el mayor de ellos según el informe *Risk in Focus 2021*, la ciberseguridad y protección de datos, seguido de posibles riesgos estratégicos, la digitalización y las tecnologías emergentes, lo que implica un riesgo mayor para una empresa de telecomunicaciones como lo es Telesites. (4)
   
+  Un posible competidor que puede existir en el mismo ámbito sería Starlink, el proyecto emprendido por SpaceX, la empresa de Elon Musk, que intenta proveer internet satelital de alta fidelidad a zonas en las que no se pueden instalar tecnologías tradicionales como fibra óptica, antenas de telecomunicaciones o 5G. En este caso, Starlink está por entrar en la fase beta en México, lo que plantea la posibilidad de que pueda competir directamente, sin embargo, hasta octubre del año pasado, el precio del servicio estaba en 99 dólares al mes, sin contar el equipo que rondaba los 500 dólares, por lo que su adopción masiva está en duda al menos en el futuro próximo, por lo que debería prestarse atención al desarrollo de esta tecnología y el potencial impacto que pueda tener a largo plazo. (6)
+  
   
 ## Análisis histórico del precio y del rendimientos. Causas de cambios
 
@@ -57,12 +59,12 @@ names(precio) <- clave
 ```
 
 Precio del activo
-```{r, include=FALSE}
+```{r, }
 chartSeries(precio, name = paste("Precio", clave),up.col = "green", dn.col = "red")
 ```
 
 Rendimientos del activo
-```{r, include=FALSE}
+```{r, echo=FALSE}
 rendimiento <- na.omit(diff(log(precio)))
 chartSeries(rendimiento, name = paste("Precio", clave), up.col = "green", dn.col = "red")
 ```
@@ -83,3 +85,4 @@ Formato de citado: vancouver (por razones de practicidad)
 3. Judith Santiago 07 de septiembre de 2020, 18:58, Horas, H. V. T. P., Horas, H. C. B. P., Horas, H. M. P. D. M. P., Horas, H. M. Y. P., AntonioRivera, J., Reuters, Reuters, AntonioRivera, J., Reuters, AntonioRivera, J., & AntonioRivera, J. (2020, 8 septiembre). Acciones de Telesites suben ante posible entrada al IPC. El Economista. https://www.eleconomista.com.mx/mercados/Acciones-de-Telesites-suben-ante-posible-entrada-al-IPC-20200907-0086.html
 4. https://www.compromisoempresarial.com/rsc/2020/10/la-covid-19-cambia-la-percepcion-de-los-riesgos-para-las-empresas/
 5. https://www.eleconomista.com.mx/opinion/Servicios-moviles-en-tiempos-de-Covid-19-20201029-0033.html
+6. https://www.pcmag.com/news/tested-spacexs-starlink-satellite-internet-service-is-fast-but-itll-cost
