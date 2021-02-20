@@ -19,7 +19,7 @@ Nombre en la bolsa: TSSLF
 Sector: Tecnología de la información.  
 
   Telesites SAB de CV es una empresa que acorde al manifesto de su sitio: "se dedica principalmente a construir, instalar, mantener, operar y comercializar, de manera directa, diversos tipos de torres y otras estructuras de soporte, así como espacios físicos y demás elementos no electrónicos para la instalación de equipos radiantes de radiocomunicaciones que conforman nuestra Infraestructura de Sitios, así como la prestación de otros servicios conexos relacionados directa o indirectamente al sector telecomunicaciones."(1)
-
+  
   La empresa fue constituida en 2015 como consecuencia de la Escisión de América Móvil, como una sociedad anónima bursátil de capital variable.
 Sus operaciones se extienden por las 9 regiones en las que se divide la República Mexicana en el sector de las telecomunicaciones, proveyendo infraestructura pasiva móvil a través de 16,606 torres y otras 298 en Costa Rica.
   Sus oficinas centrales se encuentran en Lomas de Chapultepec, Ciudad de México. 
@@ -66,6 +66,7 @@ Rendimientos del activo
 rendimiento <- na.omit(diff(log(precio)))
 chartSeries(rendimiento, name = paste("Precio", clave), up.col = "green", dn.col = "red")
 ```
+  
   Despues de analizar estás gráficas podemos entender como ha sido el comportamiento del activo desde el 2016 hasta la fecha. 
 Observando la gráfica de precios podemos notar que el precio de las acciones del activo al cierre ha ido en un muy notorio incremento desde finales del 2019 y se ha mantenido en un constante crecimiento hasta la fecha.  
 A nivel interno, esto se debe al crecimiento que tuvo la empresa durante este año, pues durante el 2020, Telesites incorporó 1,207 sitios a su portafolio y sumó 198 rentas adicionales por co-ubicaciones, cerrando el año con un total de 1,621. La expansión de nuevas torres se debió tanto a mejoras en cobertura geográfica, como al incremento en la capacidad en algunas torres, presentándose en zonas urbanas y rurales.(1)
