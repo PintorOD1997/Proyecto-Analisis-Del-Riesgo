@@ -77,6 +77,50 @@ A nivel interno, esto se debe al crecimiento que tuvo la empresa durante este a�
 
   Esto puede deberse en parte a la pandemia actual por Covid-19 que se vive en todo el mundo. Gracias a esta, los servicios de telecomunicaciones han cobrado mayor importancia a nivel global ya que labores rutinarias que requerían interacción presencial han ido migrando paulatinamente a comunicaciones por medio de distintas plataformas de telecomunicaciones, además siendo este también el principal canal de difusión de información sobre la situación actual del mundo y la teleeducación.(5)
 
+## Rendimientos y volatilidad. Pruebas de normalidad y estimación de probabilidades
+
+Rendimiento y volatilidad (diaria y anualizada) por periodos
+```{r Filtrar el rendimiento}
+rdp_2016 <- mean(rendimiento[year(rendimiento)==2016])
+ran_2016 <- mean(rendimiento[year(rendimiento)==2016])*252
+rdp_2017 <- mean(rendimiento[year(rendimiento)==2017])
+ran_2017 <- mean(rendimiento[year(rendimiento)==2017])*252
+rdp_2018 <- mean(rendimiento[year(rendimiento)==2018])
+ran_2019 <- mean(rendimiento[year(rendimiento)==2018])*252
+rdp_2019 <- mean(rendimiento[year(rendimiento)==2019])
+ran_2019 <- mean(rendimiento[year(rendimiento)==2019])*252
+rdp_2020 <- mean(rendimiento[year(rendimiento)==2020])
+ran_2020 <- mean(rendimiento[year(rendimiento)==2020])*252
+rdp_2021 <- mean(rendimiento[year(rendimiento)==2021])
+ran_2021 <- mean(rendimiento[year(rendimiento)==2021])*252
+rend_diario <- mean(rendimiento) 
+rend_anual <- mean(rendimiento)*252
+```
+
+
+```{r Filtrar la volatilidad}
+vdp_2016 <- sqrt(var(rendimiento[year(rendimiento)==2016]))
+van_2016 <- sqrt(var(rendimiento[year(rendimiento)==2016])*252)
+vdp_2017 <- sqrt(var(rendimiento[year(rendimiento)==2017]))
+van_2017 <- sqrt(var(rendimiento[year(rendimiento)==2017])*252)
+vdp_2018 <- sqrt(var(rendimiento[year(rendimiento)==2018]))
+van_2018 <- sqrt(var(rendimiento[year(rendimiento)==2018])*252)
+vdp_2019 <- sqrt(var(rendimiento[year(rendimiento)==2019]))
+van_2019 <- sqrt(var(rendimiento[year(rendimiento)==2019])*252)
+vdp_2020 <- sqrt(var(rendimiento[year(rendimiento)==2020]))
+van_2020 <- sqrt(var(rendimiento[year(rendimiento)==2020])*252)
+vdp_2021 <- sqrt(var(rendimiento[year(rendimiento)==2021]))
+van_2021 <- sqrt(var(rendimiento[year(rendimiento)==2021])*252)
+vol_diaria <- sqrt(var(rendimiento))
+vol_diaria <- format(vol_diaria, digits = 4)
+vol_anual <- sqrt(var(rendimiento)*252)
+vol_anual <- format(vol_anual, digits = 4)
+```
+
+Prueba de normalidad sobre el rendimiento, el precio y el logaritmo del precio.
+```{r Filtrar el rendimienro}
+```
+
 
 # Fuentes citadas 
 Formato de citado: vancouver (por razones de practicidad)
